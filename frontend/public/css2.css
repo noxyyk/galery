@@ -1,0 +1,29 @@
+
+
+  /* nastavení velikosti obrázků */
+  img {
+    width: 200px;
+    height: 200px;
+    }
+    
+    /* přidání efektu černobílého filtru */
+    img {
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+    }
+    
+    /* přidání efektu zvětšení a změny filtru na obrázky po najetí myší */
+    img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    }
+    
+    /* animace pohybu řádků */
+    .row {
+    display: flex;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    
+    /* animace pohybu prvního a třetího řádku doprava a druhého doleva */
